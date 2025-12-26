@@ -4,7 +4,7 @@ import plotly.express as px
 from openai import OpenAI
 
 # === YOUR GROQ API KEY HERE ===
-GROQ_API_KEY = os.getenv("GROQ_API_KEY") 
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # Paste your Groq key
 
 client = OpenAI(
     api_key=GROQ_API_KEY,
